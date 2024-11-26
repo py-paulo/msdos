@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSDOS</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/modal.css">
+</head>
+<body>
+  <header class="menu">
+    <nav class="menu-nav">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#" class="item-level-1">File</a>
+          <ul class="dropdown" aria-label="submenu">
+            <li><a href="#">New File</a></li>
+            <li><a href="#">Open File</a></li>
+            <li><a href="#">Open Folder</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="item-level-1">Edit</a>
+          <ul class="dropdown" aria-label="submenu">
+            <li>
+              <a href="#">Undo</a>
+            </li>
+            <li><a href="#">Redo</a></li>
+            <li><a href="#">Cut</a></li>
+            <li><a href="#">Copy</a></li>
+            <li><a href="#">Paste</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#" class="item-level-1">Search</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Run</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Compile</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Debug</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Tools</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Options</a></li>
+        <li class="menu-item"><a href="#" class="item-level-1">Window</a></li>
+        <li class="menu-item"><a href="#" id="btn-about" class="item-level-1">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="modal hidden" id="modal-about">
+    <div class="modal-content">
+      <div class="modal-header">
+        About
+      </div>
+      <div class="modal-body">
+        <p>MS DOS Interface</p>
+        <p>Version 0.1</p>
+        <p>Copyright (c) 2024,24 by Borland International, Inc.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-btn modal-about-btn-ok">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/javascript/menu.js"></script>
+  <script src="./assets/javascript/modal.js"></script>
+</body>
+</html>
